@@ -16,7 +16,10 @@ const ydoc = {
     title: "ydoc",
     description: "website description",
     author: "ymfe",
-    theme: 'default'
+    theme: 'default',
+    markdownIt: function(md){
+	  md.use(require('markdown-it-toc-gb'));
+    }
   },
   hook: function(name) {
     const {emitTplHook} = require('./plugin.js')

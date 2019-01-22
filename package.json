@@ -1,5 +1,5 @@
 {
-  "name": "ydoc",
+  "name": "ydoc-gb",
   "version": "4.1.0",
   "description": "基于 Markdown 的静态站点生成工具",
   "scripts": {
@@ -27,13 +27,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:YMFE/ydoc.git"
+    "url": "git@github.com/LItterBoy-GB/ydoc"
   },
   "engines": {
     "node": ">=7.6.0"
   },
   "license": "Apache2.0",
   "dependencies": {
+	"markdown-it-toc-gb": "1.1.0"
     "bash-color": "0.0.4",
     "cheerio": "^0.20.0",
     "chokidar": "^2.0.0",
