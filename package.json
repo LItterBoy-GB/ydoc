@@ -34,7 +34,7 @@
   },
   "license": "Apache2.0",
   "dependencies": {
-	"markdown-it-toc-gb": "1.1.0"
+	"markdown-it-toc-gb": "1.1.1",
     "bash-color": "0.0.4",
     "cheerio": "^0.20.0",
     "chokidar": "^2.0.0",
